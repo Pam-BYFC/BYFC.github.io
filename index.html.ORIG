@@ -1,0 +1,174 @@
+---
+layout: landing-page
+title: BYFC
+---		
+		<!-- Main -->
+			<article id="main">
+
+				<header class="special container">
+					<span class="icon fa-futbol-o"></span>
+					<h2>About Barming Youth FC</h2>
+					<img src=/images/BYFC_logo_Football_for_All.png width="100"> 
+					<p>Barming Youth F.C. was founded in 1980 with just one team. The club has grown extensively since then, with over 20 teams including girls, ladies, men's and veterans teams. The aim of the club is to provide all local youth, opportunities to play football regardless of their abilities. The club has become an F.A. Charter Standard club. The Charter Standard Scheme is a best practice guide that sets standards of coaching, administration and child protection for clubs working with young people. As a benchmark for quality, it will improve the playing experience for all.
+<br />
+<br />
+
+Barming Youth will be running over 30 teams this season from Under 5s up to Seniors, including three girls sides, and these teams will be playing at Barming School, South Street, Barming Heath, Poplar Grove, Mereworth, Gatland Lane, Eccles and West Malling. The season starts early September for all of the Barming teams and runs through to late March. Once the season is over, most teams take part in various tournaments around the county, in particular our own tournament. </p>
+
+
+				</header>
+					
+				<!-- One -->
+					<section class="wrapper style2 container special-alt">
+						<div class="row half">
+							<div class="8u">
+							
+								<header>
+									<h2>Behold the <strong>icons</strong> that visualize what you’re all about. or just take up space. your call bro.</h2>
+								</header>
+								<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu comteger ut fermentum lorem. Lorem ipsum dolor sit amet. Sed tristique purus vitae volutpat ultrices. eu elit eget commodo. Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo.</p>
+								<footer>
+									<ul class="buttons">
+										<li><a href="#" class="button">Find Out More</a></li>
+									</ul>
+								</footer>
+							
+							</div>
+							<div class="4u skel-cell-important">
+							
+								<ul class="featured-icons">
+									<li><span class="icon fa-clock-o"><span class="label">Feature 1</span></span></li>
+									<li><span class="icon fa-volume-up"><span class="label">Feature 2</span></span></li>
+									<li><span class="icon fa-laptop"><span class="label">Feature 3</span></span></li>
+									<li><span class="icon fa-inbox"><span class="label">Feature 4</span></span></li>
+									<li><span class="icon fa-lock"><span class="label">Feature 5</span></span></li>
+									<li><span class="icon fa-cog"><span class="label">Feature 6</span></span></li>
+								</ul>
+							
+							</div>				
+						</div>
+					</section>
+					
+				<!-- Two -->
+					<section class="wrapper style1 container special">
+						<div class="row">
+							<div class="4u">
+							
+								<section>
+									<span class="icon featured fa-check"></span>
+									<header>
+										<h3>Most recent news item</h3>
+									</header>
+									<p>Get the excerpt from the most recent news item here. Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
+								</section>
+							
+							</div>
+							<div class="4u">
+							
+								<section>
+									<span class="icon featured fa-check"></span>
+									<header>
+										<h3>Also Something</h3>
+									</header>
+									<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
+								</section>
+							
+							</div>
+							<div class="4u">
+							
+								<section>
+									<span class="icon featured fa-check"></span>
+									<header>
+										<h3>Probably Something</h3>
+									</header>
+									<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
+								</section>
+							
+							</div>
+						</div>
+					</section>
+					
+				<!-- Three -->
+					<section class="wrapper style3 container special">
+					
+						<header class="major">
+							<h2>Make this a collection and iterate over it</h2>
+						</header>
+						
+						<div class="row">
+							<div class="6u">
+							
+								<section>
+									<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+									<header>
+										<h3>Tournament 2017</h3>
+									</header>
+									<p>
+We had 208 teams from 71 different clubs attend our tournament in June 2017. See http://tournament.barmingyouth.co.uk for details, including scores.
+</p>
+
+								</section>
+
+							</div>
+							<div class="6u">
+							
+								<section>
+									<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+									<header>
+										<h3>Joining BYFC</h3>
+									</header>
+									<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
+								</section>
+
+							</div>
+						</div>
+						<div class="row">
+							<div class="6u">
+							
+								<section>
+									<a href="#" class="image featured"><img src="images/DSC_0302.JPG" alt="" /></a>
+									<header>
+										<h3>Presentation evening 2017</h3>
+									</header>
+									<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
+								</section>
+
+							</div>
+							<div class="6u">
+							
+								<section>
+									<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+									<header>
+										<h3>And Another Train</h3>
+									</header>
+									<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
+								</section>
+
+							</div>
+						</div>
+
+						<footer class="major">
+							<ul class="buttons">
+								<li><a href="#" class="button">See More</a></li>
+							</ul>
+						</footer>
+					
+					</section>
+					
+			</article>
+
+		<!-- CTA -->
+			<section id="cta">
+			
+				<header>
+					<h2>Ready to do <strong>something</strong>?</h2>
+					<p>Proin a ullamcorper elit, et sagittis turpis integer ut fermentum.</p>
+				</header>
+				<footer>
+					<ul class="buttons">
+						<li><a href="#" class="button special">Take My Money</a></li>
+						<li><a href="#" class="button">LOL Wut</a></li>
+					</ul>
+				</footer>
+			
+			</section>

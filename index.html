@@ -1,0 +1,153 @@
+---
+layout: landing-page
+title: BYFC
+---		
+		<!-- Main -->
+			<article id="main">
+
+				<header class="special container">
+					<span class="icon fa-futbol-o"></span>
+					<h2>About Barming Youth FC</h2>
+					<img src=/images/BYFC_logo_Football_for_All.png width="100"> 
+					<p>Barming Youth F.C. was founded in 1980 with just one team. The club has grown extensively since then, adding many teams including girls, ladies, men's and veterans teams. The aim of the club is to provide all local youth, opportunities to play football regardless of their abilities. The club has become an F.A. Charter Standard club. The Charter Standard Scheme is a best practice guide that sets standards of coaching, administration and child protection for clubs working with young people. As a benchmark for quality, it will improve the playing experience for all.
+<br />
+<br />
+
+Barming Youth will be running over 30 teams this season from Under 5s up to Seniors, including three girls sides, and these teams will be playing at Barming School, South Street, Barming Heath, Poplar Grove, Mereworth, Gatland Lane, Eccles and West Malling. The season starts early September for all of the Barming teams and runs through to late March. Once the season is over, most teams take part in various tournaments around the county, in particular our own tournament. </p>
+
+
+				</header>
+
+				<!-- One -->
+					<section class="wrapper style2 container special-alt">
+						<div class="row half">
+							<div class="8u">
+							
+								<header>
+									<h2>Do you want to <strong>join us</strong>? </h2>
+								</header>
+								<p>Some of our teams are looking for new players, and others have places for training. If you are interested in finding out about opportuniyties with our teams, please send an email to <a href="mailto:newplayerenquiries@barmingyouth.co.uk">newplayerenquiries@barmingyouth.co.uk</a>. Please include the following information: School year, etc.
+
+</p>
+
+
+								<footer>
+									<ul class="buttons">
+										<li><a href="#" class="button">Find Out More</a></li>
+									</ul>
+								</footer>
+							
+							</div>
+							<div class="4u skel-cell-important">
+							
+								<ul class="featured-icons">
+									<li><span class="icon fa-futbol-o"><span class="label">Feature 1</span></span></li>
+									<li><span class="icon fa-trophy"><span class="label">Feature 2</span></span></li>
+									<li><span class="icon fa-smile-o"><span class="label">Feature 3</span></span></li>
+									<li><span class="icon fa-thumbs-up"><span class="label">Feature 4</span></span></li>
+								</ul>
+							
+							</div>				
+						</div>
+					</section>
+					
+				<!-- Two: Three most recent posts -->
+					<section class="wrapper style1 container special">
+						<div class="row">
+					          {% for post in site.posts limit:3 %}
+							<div class="4u">
+								<section>
+									<span class="icon featured fa-newspaper-o"></span>
+									<header>
+								              <h3><a href="{{ post.url }}"><strong>{{ post.title }}</strong></a></h3>
+									</header>
+									{{ post.date | date_to_string }}
+									{% if page.image %}
+							  		<span class="image featured"><img src="{{ post.image }}" alt="{{ post.alt }}"></span>
+									{% endif %}
+									{{ post.excerpt }}
+							                <section class="special">
+							                    <ul class="buttons">
+							                        <li><a href="{{ post.url }}" class="button">Read more</a></li>
+							                    </ul>
+									</section>
+								</section>
+							</div>
+					          {% endfor %}
+						</div>
+					</section>
+					
+				<!-- Three -->
+					<section class="wrapper style3 container special">
+					
+						<header class="major">
+							<h2>Events</h2>
+						</header>
+						
+						<div class="row">
+						{% for event in site.events limit:4 %}
+							<div class="6u">
+							
+								<section>
+									<a href="#" class="image featured"><img src="{{ event.image }}" alt="{{ event.alt }}" /></a>
+									<header>
+										<h3><strong>{{ event.title }}</strong></h3>
+									</header>
+									{{ event.excerpt }}
+
+								</section>
+
+							</div>
+						{% endfor %}					
+						</div>
+<!--
+						<div class="row">
+							<div class="6u">
+							
+								<section>
+									<a href="#" class="image featured"><img src="images/DSC_0302.JPG" alt="" /></a>
+									<header>
+										<h3>Presentation evening 2017</h3>
+									</header>
+									<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
+								</section>
+
+							</div>
+							<div class="6u">
+							
+								<section>
+									<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+									<header>
+										<h3>And Another Train</h3>
+									</header>
+									<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
+								</section>
+
+							</div>
+						</div>
+-->
+						<footer class="major">
+							<ul class="buttons">
+								<li><a href="#" class="button">See More</a></li>
+							</ul>
+						</footer>
+					
+					</section>
+					
+			</article>
+
+		<!-- CTA -->
+			<section id="cta">
+			
+				<header>
+					<h2>Ready to do <strong>something</strong>?</h2>
+					<p>Proin a ullamcorper elit, et sagittis turpis integer ut fermentum.</p>
+				</header>
+				<footer>
+					<ul class="buttons">
+						<li><a href="#" class="button special">Take My Money</a></li>
+						<li><a href="#" class="button">LOL Wut</a></li>
+					</ul>
+				</footer>
+			
+			</section>
