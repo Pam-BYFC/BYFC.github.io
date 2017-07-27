@@ -15,7 +15,7 @@ title: Teams 4 to 11 years
             <li class="wrapper style1">
               <h2>{{ team.name }}</h2>
 <p><strong>Manager:</strong> {{ team.manager }} <br />
-<strong>Home ground:</strong> {{ team.homeground }} <br />
+<strong>Home ground:</strong> {{ team.homeground }} ({{ team.day }} {{ team.time }}) <br />
 {% if team.training %}<strong>Training:</strong> {{ team.training }} <br /> {% endif %}
 {% if team.sponsor %}<strong>Sponsor:</strong> {{ team.sponsor }} <br /> {% endif %}
 {% if team.schoolyear %}<strong>School year:</strong> {{ team.schoolyear }} {% endif %}
