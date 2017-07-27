@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Veterans, Ladies and Men's teams
 ---
 
 <article id="main">

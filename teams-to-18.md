@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Teams aged 12 to 18 years
 ---
 
 <article id="main">

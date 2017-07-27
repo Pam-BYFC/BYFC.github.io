@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Teams 4 to 11 years
 ---
 
 <article id="main">
