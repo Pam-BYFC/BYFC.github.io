@@ -10,6 +10,7 @@ layout: default
     <section class="wrapper style4 container">
         <ul class="posts">
           {% for team in site.data.teams %}
+	  {% assign thisage = team.agegrp | to_integer %}{% if thisage > 11 and thisage < 19 %}
             <li class="wrapper style1">
               <h2>{{ team.name }}</h2>
 <p><strong>Manager:</strong> {{ team.manager }} <br />
@@ -19,6 +20,7 @@ layout: default
 {% if team.schoolyear %}<strong>School year:</strong> {{ team.schoolyear }} {% endif %}
 </p>
             </li>
+	  {% endif %}
           {% endfor %}
         </ul>
     </section>
