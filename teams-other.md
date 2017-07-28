@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Veterans, Ladies and Men's teams
+title: Adult teams
 ---
 
 <article id="main">
     <header class="special container">
         <span class="icon fa-futbol-o"></span>
-        <h2>Teams</h2>
+        <h2>Adult teams</h2>
     </header>
     <section class="wrapper style4 container">
         <ul class="posts">

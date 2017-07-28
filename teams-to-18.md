@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Teams aged 12 to 18 years
+title: Teams &mdash; secondary school age
 ---
 
 <article id="main">
     <header class="special container">
         <span class="icon fa-futbol-o"></span>
-        <h2>Teams</h2>
+        <h2>Teams &mdash; secondary school age</h2>
     </header>
     <section class="wrapper style4 container">
         <ul class="posts">

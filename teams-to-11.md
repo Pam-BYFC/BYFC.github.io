@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Teams 4 to 11 years
+title: Teams &mdash; primary school age
 ---
 
 <article id="main">
     <header class="special container">
         <span class="icon fa-futbol-o"></span>
-        <h2>Teams</h2>
+        <h2>Teams &mdash; primary school age</h2>
     </header>
     <section class="wrapper style4 container">
         <ul class="posts">
