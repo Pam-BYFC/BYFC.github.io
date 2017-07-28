@@ -9,7 +9,8 @@ title: Rules and policies
         <h2>Club rules and policies</h2>
     </header>
     <section class="wrapper style4 container">
-        <ul>
+<h3>Code of conduct</h3>
+<ul>
 <li>Players and supporters will not argue with, or give abuse to the Referee, officials or others present. Any disagreement will be dealt with by the Team Manager in a proper manner. Any supporter not complying with this rule will be asked to leave.</li>
 <li>Players will not argue with team-mates during matches.</li>
 <li>All players are expected to behave in accordance with the spirit of the game and in a sporting manner.</li>
@@ -22,7 +23,7 @@ title: Rules and policies
 <li>Players should give notice of unavailability at least 8 days prior to matches, or if sick, as soon as practically possible.</li>
 <li>Match fees will be paid on match days or in advance.</li>
 <li>Breaches of the above mentioned rules could result in the matter being considered by the Club's Disciplinary Committee.</li> 
-        </ul>
+</ul>
     </section>
 </article>
 
