@@ -1,0 +1,25 @@
+---
+layout: default
+title: Events
+---
+
+<article id="main">
+    <header class="special container">
+        <span class="icon fa-futbol-o"></span>
+        <h2>Events</h2>
+    </header>
+    <section class="wrapper style4 container">
+        <ul class="posts">
+	{% for event in site.events reversed limit:4 %}
+            <li class="wrapper {% if forloop.first %} style2 {% else %} style1 {% endif %}">
+              <h2>{{ event.title }}</h2>
+		<h3>{{ event.date | date: '%d %B, %Y' }}</h3>
+		{% if event.image %}
+  		<span class="image featured"><img src="{{ event.image }}" alt="{{ event.alt }}"></span>
+		{% endif %}
+                {{ event.content }}
+            </li>
+          {% endfor %}
+        </ul>
+    </section>
+</article>

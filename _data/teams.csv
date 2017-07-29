@@ -1,31 +1,34 @@
-agegrp,schoolyear,name,format,manager,homeground,day,time,training,sponsor
-5,R,Under 5 Buds,Training,,South Street,Saturday,am,,
-6,1,Under 6 Youth,5-a-side,Pam Wilson,South Street,Saturday,am,,
-7,2,Under 7 Youth,5-a-side,Alan McMillan,"Barming School, top field",Saturday,am,Maplesden Noakes,A
-8,3,Under 8 Youth,5-a-side,Mike Drew/Stuart Collins,Poplar Grove,Saturday,am,Maplesden Noakes,B
-8,3,Under 8 Blues,5-a-side,Matthew Kerr,Poplar Grove,Saturday,am,Maplesden Noakes,C
-9,4,Under 9 Youth,7-a-side,Andy Cassie,"Barming School, top field",Saturday,am,Maplesden Noakes,A
-9,4,Under 9 Blues,7-a-side,Neil King,"Barming School, top field",Saturday,am,Maplesden Noakes,B
-9,4,Under 9 Colts,7-a-side,Nathan Harrison,West Malling/Poplar Grove,Saturday,am,Maplesden Noakes,C
-10,5,Under 10 Youth,7-a-side,Claire West,"Barming School, top field",Sunday,am,Maplesden Noakes,A
-10,5,Under 10 Blues,7-a-side,Matt Hamilton,"Barming School, top field",Sunday,am,Maplesden Noakes,B
-10,5,Under 10 Colts,7-a-side,Matt Kennaird,Mereworth,Sunday,am,Maplesden Noakes,C
-11,6,Under 11 Colts,9-a-side,Kevin Wayne,"Barming School, lower field",Sunday ,am,Maplesden Noakes,A
-11,6,Under 11 Girls,7-a-side,Lauren Ramsden,South Street,Sunday,am,Maplesden Noakes,B
-12,7,Under 12 Youth,9-a-side,Andy Cassie,Gatland Lane 2,Sunday ,am,Maplesden Noakes,C
-12,7,Under 12 Blues,9-a-side,Simon Coulton,Gatland Lane 2,Sunday ,am,Maplesden Noakes,A
-13,8,Under 13 Blues,11-a-side,Neil Poole,Gatland Lane 3,Sunday ,am,Maplesden Noakes,B
-14,9,Under 14 Girls,9-a-side,Lauren Ramsden,Mereworth,Sunday,am,Maplesden Noakes,C
-14,9,Under 14 Youth,11-a-side,Warren Lindley,Gatland Lane 1,Sunday ,am,Maplesden Noakes,A
-14,9,Under 14 Blues,11-a-side,Steve Oakley,Gatland Lane 1,Sunday ,am,Maplesden Noakes,B
-15,10,Under 15 Youth,11-a-side,Richard Rose,Gatland Lane 1,Sunday ,pm,Maplesden Noakes,C
-15,10,Under 15 Colts,11-a-side,Greg Theophanides,Gatland Lane 1,Sunday ,pm,Maplesden Noakes,A
-16,11,Under 16 Youth,11-a-side,Sam Grist,Barming Heath,Sunday,pm,Maplesden Noakes,B
-18,13,Under 18 Blues,11-a-side,Darren Reed,Mereworth,Sunday ,pm,Maplesden Noakes,C
-18,13,Under 18 Youth,11-a-side,Steve Oakley,Barming Heath,Sunday ,pm,Maplesden Noakes,A
-18,13,Under 18 Girls,9-a-side,John Wood,Mereworth,Sunday ,am,Maplesden Noakes,B
-20,,Mens Youth,11-a-side,Julian Terry,Eccles,Sunday ,am,Maplesden Noakes,C
-20,,Mens Blues,11-a-side,Trevor Roberts,West Malling,Sunday,am,Maplesden Noakes,A
-20,,Ladies Youth,11-a-side,Vicki King,West Malling,Sunday,pm,Maplesden Noakes,B
-20,,Mens Colts,11-a-side,Herman,Mote Park,Sunday,am,Maplesden Noakes,C
-35,,TNV (Vets),11-a-side,Mark Hoare,Maplesden Noakes,Thursday,evening,,
+agegrp,schoolyear,name,format,manager,homeground,day,time,training,sponsor,sponsorURL
+5,R,Under 5 Buds,Training,Trevor Roberts,South Street,Saturday,am,,,
+6,1,Under 6 Youth,Training,Chris Kavanagh,South Street,Saturday,am,,,
+7,2,Under 7 Youth,5-a-side,Pam Wilson,"Barming School, top field",Saturday,am,Maplesden Noakes,A,www.example.com
+7,2,Under 7 Colts,5-a-side,TBA,,,,,,
+7,2,Under 7 Blues,5-a-side,Mark Chase,Barming School,,,Maplesden Noakes,,
+8,3,Under 8 Youth,5-a-side,Alan McMillan,Poplar Grove,Saturday,am,Maplesden Noakes,B,
+8,3,Under 8 Blues,5-a-side,Amanda Haffenden-Boyce,Poplar Grove,Saturday,am,Maplesden Noakes,C,
+9,4,Under 9 Youth,7-a-side,Mike Drew,"Barming School, top field",Saturday,am,Maplesden Noakes,A,
+9,4,Under 9 Girls,,Katie Hills,South Street,Saturday,am,Maplesden Noakes,C,
+9,4,Under 9 Blues,7-a-side,Spencer Hart,"Barming School, top field",Saturday,am,Maplesden Noakes,B,
+10,5,Under 10 Youth,7-a-side,Bryan Hudson,"Barming School, top field",Sunday,am,Maplesden Noakes,A,
+10,5,Under 10 Colts,7-a-side,Nathan Harrison,Mereworth,Sunday,am,Maplesden Noakes,C,
+10,5,Under 10 Blues,7-a-side,Neil King,"Barming School, top field",Sunday,am,Maplesden Noakes,B,
+11,6,Under 11 Youth,9-a-side,Claire West,Gatland Lane 2,Sunday ,am,Maplesden Noakes,A,
+11,6,Under 11 Colts,9-a-side,Matt Kennaird/Callum Wadlen,"Barming School, lower field",Sunday ,am,Maplesden Noakes,A,
+11,6,Under 11 Blues,9-a-side,Matt Hamilton,"Barming School, lower field",Sunday ,am,Maplesden Noakes,A,
+12,7,Under 12 Girls,,Lauren Ramsden,South Street,Sunday ,am,Maplesden Noakes,A,
+12,7,Under 12 Colts,9-a-side,Brendan Donnelly,Gatland Lane 2,Sunday ,am,Maplesden Noakes,C,
+13,8,Under 13 Youth,11-a-side,Andy Cassie,Gatland Lane 3,Sunday ,am,Maplesden Noakes,B,
+13,8,Under 13 Blues,11-a-side,Simon Coulton,Gatland Lane 3,Sunday ,am,Maplesden Noakes,B,
+14,9,Under 14 Blues,11-a-side,Neil Poole,Gatland Lane 1,Sunday ,am,Maplesden Noakes,B,
+15,10,Under 15 Youth,11-a-side,Warren Lindley,Gatland Lane 1,Sunday ,pm,Maplesden Noakes,C,
+15,10,Under 15 Girls,,Annie Ruler,South Street,Sunday ,pm,Maplesden Noakes,A,
+15,10,Under 15 Blues,11-a-side,Steve Oakley,Gatland Lane 1,Sunday ,pm,Maplesden Noakes,A,
+16,11,Under 16 Youth,11-a-side,Lee Payne,Barming Heath,Sunday,pm,Maplesden Noakes,B,
+16,11,Under 16 Colts,11-a-side,Matt Kirwan,Barming Heath,Sunday,pm,Maplesden Noakes,B,
+18,13,Under 18 Youth,11-a-side,Adrian Pringle,Mereworth,Sunday ,pm,Maplesden Noakes,A,
+18,13,Under 18 Blues,11-a-side,Sam Grist,Mereworth,Sunday ,pm,Maplesden Noakes,C,
+20,,Mens Youth,11-a-side,Billy Jacobs,Eccles,Sunday ,am,Maplesden Noakes,C,
+20,,Mens Colts,11-a-side,Joshua Young,Mereworth,Sunday,am,Maplesden Noakes,C,
+20,,Mens Blues,11-a-side,Trevor Roberts,West Malling,Sunday,am,Maplesden Noakes,A,
+20,,Ladies Youth,11-a-side,Vicki King,West Malling,Sunday,pm,Maplesden Noakes,B,
+35,,TNV (Vets),11-a-side,Mark Hoare,Maplesden Noakes,Thursday,evening,,,
