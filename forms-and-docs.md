@@ -1,14 +1,24 @@
 ---
 layout: default
-title: Forms and documents 
+title: Policies, forms and documents 
 ---
 
 <article id="main">
     <header class="special container">
         <span class="icon fa-futbol-o"></span>
-        <h2>Forms and documents</h2>
+        <h2>Policies, forms and documents</h2>
     </header>
     <section class="wrapper style4 container">
+        <h3>Rules and policies</h3>
+        <ul>
+          {% for doc in site.data.docs %}
+            <li>
+		{% if doc.group == "policy" %}
+		<a href="{{ doc.link }}">{{ doc.description }} ({{ doc.filetype }})</a> <br />
+		{% endif %}
+            </li>
+          {% endfor %}
+        </ul>
         <h3>Forms</h3>
         <ul>
           {% for doc in site.data.docs %}
