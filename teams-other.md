@@ -17,6 +17,7 @@ title: Adult teams
 <p><strong>Manager:</strong> {{ team.manager }} <br />
 <strong>Home ground:</strong> {{ team.homeground }} ({{ team.day }} {{ team.time }}) <br />
 {% if team.format %}<strong>Format:</strong> {{ team.format }} <br /> {% endif %}
+{% if team.results %}<a href="{{ team.results }}"><strong>Results</strong></a><br /> {% endif %}
 {% if team.training %}<strong>Training:</strong> {{ team.training }} <br /> {% endif %}
 {% if team.format %}<strong>Format:</strong> {{ team.format }} <br /> {% endif %}
 {% if team.sponsor %}<strong>Sponsor:</strong> {{ team.sponsor }} <br /> {% endif %}
