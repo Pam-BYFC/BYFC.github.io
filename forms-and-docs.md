@@ -11,9 +11,11 @@ title: Forms and documents
     <section class="wrapper style4 container">
         <h3>Forms</h3>
         <ul>
-          {% for doc in site.data.forms %}
+          {% for doc in site.data.docs %}
             <li>
+		{% if doc.group == "forms" %}
 		<a href="{{ doc.link }}">{{ doc.description }} ({{ doc.filetype }})</a> <br />
+		{% endif %}
             </li>
           {% endfor %}
         </ul>
@@ -21,7 +23,19 @@ title: Forms and documents
         <ul>
           {% for doc in site.data.docs %}
             <li>
+		{% if doc.group == "docs" %}
 		<a href="{{ doc.link }}">{{ doc.description }} ({{ doc.filetype }})</a> <br />
+		{% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+        <h3>Accounts</h3>
+        <ul>
+          {% for doc in site.data.docs %}
+            <li>
+		{% if doc.group == "accounts" %}
+		<a href="{{ doc.link }}">{{ doc.description }} ({{ doc.filetype }})</a> <br />
+		{% endif %}
             </li>
           {% endfor %}
         </ul>
