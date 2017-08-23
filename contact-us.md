@@ -10,4 +10,3 @@ title: Contact us
 * Welfare: welfare@barmingyouth.co.uk
 
 
-TODO: Add form, as done in tournament website
