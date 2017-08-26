@@ -19,7 +19,9 @@ title: Adult teams
 {% if team.format %}<strong>Format:</strong> {{ team.format }} <br /> {% endif %}
 {% if team.results %}<a href="{{ team.results }}"><strong>Results</strong></a><br /> {% endif %}
 {% if team.training %}<strong>Training:</strong> {{ team.training }} <br /> {% endif %}
-{% if team.sponsor %}<strong>Sponsor:</strong> <a href="{{ team.sponsorURL }}">{{ team.sponsor }}</a> <br /> {% endif %}
+{% if team.sponsor %}<strong>Sponsor:</strong> <a href="{{ team.sponsorURL }}">{{ team.sponsor }}</a> {% endif %}
+{% if team.sponsor2 %} and <a href="{{ team.sponsorURL2 }}">{{ team.sponsor2 }}</a> {% endif %}
+{% if team.sponsor %}<br /> {% endif %}
 {% if team.schoolyear %}<strong>School year:</strong> {{ team.schoolyear }} {% endif %}
 {% if team.blurb %}<br /><br /> {{ team.blurb }} <br /> {% endif %}
 </p>
