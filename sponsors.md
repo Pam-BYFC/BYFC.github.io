@@ -8,8 +8,10 @@ We would like to express our thanks to all of the companies listed below that ar
 {% for team in site.data.teams %}
 ## {{ team.name }}
 
-{% if team.sponsor %}<strong>Sponsor:</strong> 
-    <a href="{{ team.sponsorURL }}">{{ team.sponsor }}</a>
+{% if team.sponsor %}
+<strong>Sponsor: </strong><a href="{{ team.sponsorURL }}">{{ team.sponsor }}</a>
+{% if team.sponsor2 %} and <a href="{{ team.sponsorURL2 }}">{{ team.sponsor2 }}</a> {% endif %}
 {% endif %}
+
 {% endfor %}
 
