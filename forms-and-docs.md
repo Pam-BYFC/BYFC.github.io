@@ -9,6 +9,20 @@ title: Policies, forms and documents
         <h2>Policies, forms and documents</h2>
     </header>
     <section class="wrapper style4 container">
+
+
+        <h3>AGM 2017</h3>
+        <ul>
+          {% for doc in site.data.docs %}
+            <li>
+		{% if doc.group == "AGM" %}
+		<a href="{{ doc.link }}">{{ doc.description }} ({{ doc.filetype }})</a> <br />
+		{% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+
+
         <h3>Rules and policies</h3>
         <ul>
           {% for doc in site.data.docs %}
@@ -19,6 +33,7 @@ title: Policies, forms and documents
             </li>
           {% endfor %}
         </ul>
+
         <h3>Forms</h3>
         <ul>
           {% for doc in site.data.docs %}
