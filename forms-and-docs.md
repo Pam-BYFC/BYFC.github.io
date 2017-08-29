@@ -11,59 +11,20 @@ title: Policies, forms and documents
     <section class="wrapper style4 container">
 
 
-        <h3>AGM 2017</h3>
-        <ul>
-          {% for doc in site.data.docs %}
-            <li>
-		{% if doc.group == "AGM" %}
-		<a href="{{ doc.link }}">{{ doc.description }} ({{ doc.filetype }})</a> <br />
-		{% endif %}
-            </li>
-          {% endfor %}
-        </ul>
 
+        {% for docsection in site.data.docsections %}
+        <h3>{{ docsection.title }}</h3>
+        <ul>
+          {% for doc in site.data.docs %}
+            <li>
+		{% if doc.group == docsection.section %}
+		<a href="{{ doc.link }}">{{ doc.description }} ({{ doc.filetype }})</a> <br />
+		{% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+        {% endfor %}
 
-        <h3>Rules and policies</h3>
-        <ul>
-          {% for doc in site.data.docs %}
-            <li>
-		{% if doc.group == "policy" %}
-		<a href="{{ doc.link }}">{{ doc.description }} ({{ doc.filetype }})</a> <br />
-		{% endif %}
-            </li>
-          {% endfor %}
-        </ul>
-
-        <h3>Forms</h3>
-        <ul>
-          {% for doc in site.data.docs %}
-            <li>
-		{% if doc.group == "forms" %}
-		<a href="{{ doc.link }}">{{ doc.description }} ({{ doc.filetype }})</a> <br />
-		{% endif %}
-            </li>
-          {% endfor %}
-        </ul>
-        <h3>Documents</h3>
-        <ul>
-          {% for doc in site.data.docs %}
-            <li>
-		{% if doc.group == "docs" %}
-		<a href="{{ doc.link }}">{{ doc.description }} ({{ doc.filetype }})</a> <br />
-		{% endif %}
-            </li>
-          {% endfor %}
-        </ul>
-        <h3>Accounts</h3>
-        <ul>
-          {% for doc in site.data.docs %}
-            <li>
-		{% if doc.group == "accounts" %}
-		<a href="{{ doc.link }}">{{ doc.description }} ({{ doc.filetype }})</a> <br />
-		{% endif %}
-            </li>
-          {% endfor %}
-        </ul>
     </section>
 </article>
 
