@@ -12,7 +12,7 @@ title: Events
         <ul class="posts">
 	{% for event in site.events reversed limit:4 %}
             <li class="wrapper {% if forloop.first %} style2 {% else %} style1 {% endif %}">
-              <h2>{{ event.title }}</h2>
+              <h2><a id="{{ event.id | slugify }}">{{ event.title }}</a></h2>
 		<h3>{{ event.date | date: '%d %B, %Y' }}</h3>
 		{% if event.image %}
   		<span class="image featured"><img src="{{ event.image }}" alt="{{ event.alt }}"></span>
