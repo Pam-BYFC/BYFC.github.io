@@ -13,7 +13,7 @@ title: Policies, forms and documents
 
 
         {% for docsection in site.data.docsections %}
-        <h3>{{ docsection.title }}</h3>
+        <h3><a id="{{ docsection.title | slugify }}">{{ docsection.title }}</a></h3>
         <ul>
           {% for doc in site.data.docs %}
             <li>
