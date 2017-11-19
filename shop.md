@@ -14,6 +14,8 @@ This is the Barming Youth FC shop.
 
 <strong>Price: {{ item.price }}</strong>
 
+Click [here](https://goo.gl/forms/3kFzIJfmqhdO0iq33) to place an order.
+
 
 {% endfor %}
 
