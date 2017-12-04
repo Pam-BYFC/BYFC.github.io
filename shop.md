@@ -3,7 +3,7 @@ layout: post
 title: Shop
 ---
 
-This is the Barming Youth FC shop.
+Welcome to the Barming Youth FC shop.
 
 {% for item in site.data.shop %}
 ## {{ item.item }}
