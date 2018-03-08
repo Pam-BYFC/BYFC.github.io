@@ -23,5 +23,5 @@ If you are 18 or under Childline offers free, confidential advice and support wh
 
 ## The FA
 
-To find out how to report your concerns to the FA's safe-guarding team, or hot whistle-blow go to the FA website [here](http://www.thefa.com/football-rules-governance/safeguarding/reporting-concerns).
+To find out how to report your concerns to the FA's safe-guarding team, or how to whistle-blow go to the FA website [here](http://www.thefa.com/football-rules-governance/safeguarding/reporting-concerns).
 
