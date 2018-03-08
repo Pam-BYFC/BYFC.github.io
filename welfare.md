@@ -10,7 +10,7 @@ If you know of a child who is at risk of harm then please let someone know. You 
 If you're worried about a child, even if you're unsure, contact their professional counsellors 24/7 for help, advice and support. 
 
 * Call them on 0808 800 5000 
-* or email help@nspcc.org.uk
+* or email <a href="mailto:help@nspcc.org.uk">help@nspcc.org.uk</a>
 * Website: [https://www.nspcc.org.uk/](https://www.nspcc.org.uk/) 
 
 
@@ -23,7 +23,5 @@ If you are 18 or under Childline offers free, confidential advice and support wh
 
 ## The FA
 
-To find out how to report your concerns to the FA's safe-guarding team, or hot whistle-blow
-
-Details can be found on the FA website [here](http://www.thefa.com/football-rules-governance/safeguarding/reporting-concerns).
+To find out how to report your concerns to the FA's safe-guarding team, or hot whistle-blow go to the FA website [here](http://www.thefa.com/football-rules-governance/safeguarding/reporting-concerns).
 
