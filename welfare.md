@@ -23,6 +23,16 @@ The number will not show on your phone bill, in case you are concerned about thi
 * Call 0800 1111
 * Website: [https://www.childline.org.uk/](https://www.childline.org.uk/)
 
+
+## CEOP
+
+Are you worried about online sexual abuse or the way someone has been communicating with you online?
+
+Make a report to one of CEOP's Child Protection Advisors
+
+* Website: [https://www.ceop.police.uk/safety-centre/](https://www.ceop.police.uk/safety-centre/)
+
+
 ## The FA
 
 To find out how to report your concerns to the FA's safe-guarding team, or how to whistle-blow go to the FA website [here](http://www.thefa.com/football-rules-governance/safeguarding/reporting-concerns).
