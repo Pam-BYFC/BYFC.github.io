@@ -28,9 +28,7 @@ The number will not show on your phone bill, in case you are concerned about thi
 
 Are you worried about online sexual abuse or the way someone has been communicating with you online?
 
-Make a report to one of CEOP's Child Protection Advisors
-
-* Website: [https://www.ceop.police.uk/safety-centre/](https://www.ceop.police.uk/safety-centre/)
+![https://www.ceop.police.uk/safety-centre/](images/ceop.gif) to make a report to one of CEOP's Child Protection Advisors
 
 
 ## The FA
