@@ -14,11 +14,13 @@ title: Teams &mdash; primary school age
 	  {% assign thisage = team.agegrp | to_integer %}{% if thisage < 12 %}
             <li class="wrapper style1">
               <h2>{{ team.name }}</h2>
-<p><strong>Manager:</strong> {{ team.manager }} <br />
+<p>
+{% if team.manager != '' %}<strong>Manager:</strong> {{ team.manager }} <br /> {% endif %}
 <strong>Home ground:</strong> {{ team.homeground }} ({{ team.day }} {{ team.time }}) <br />
 {% if team.format %}<strong>Format:</strong> {{ team.format }} <br /> {% endif %}
 {% if team.results %}<a href="{{ team.results }}"><strong>Results</strong></a><br /> {% endif %}
-{% if team.training %}<strong>Training:</strong> {{ team.training }} <br /> {% endif %}
+{% if team.training != '' %}<strong>Training:</strong> {{ team.training }} <br /> {% endif %}
+{% if team.League != '' %}<strong>League:</strong> {{ team.League }} <br /> {% endif %}
 {% if team.sponsor != '' %}<strong>Sponsor:</strong> <a href="{{ team.sponsorURL }}">{{ team.sponsor }}</a> {% endif %}
 {% if team.sponsor2 != '' %} and <a href="{{ team.sponsorURL2 }}">{{ team.sponsor2 }}</a> {% endif %}
 {% if team.sponsor != '' %}<br /> {% endif %}
