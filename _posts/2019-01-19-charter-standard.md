@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "FA charter standard renewed for 2019/20"
+image: https://gallery.mailchimp.com/8929887cb2683b8d125761973/images/2140a139-9280-424c-b56b-3298638576ae.png
 ---
 Barming Youth Football Club is delighted to announce that we have recently achieved the FA Charter Standard Award again. The programme is the FA’s accreditation scheme for grassroots clubs and leagues, offering many benefits to those clubs and recognising the achievements within them. 
 
