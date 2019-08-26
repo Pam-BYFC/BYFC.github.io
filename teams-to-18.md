@@ -11,22 +11,24 @@ title: Teams &mdash; secondary school age
     <section class="wrapper style4 container">
         <ul class="posts">
           {% for team in site.data.teams %}
+          {% if team.manager != nil %}
 	  {% assign thisage = team.agegrp | to_integer %}{% if thisage > 11 and thisage < 19 %}
             <li class="wrapper style1">
               <h2>{{ team.name }}</h2>
 <p><strong>Manager:</strong> {{ team.manager }} <br />
 <strong>Home ground:</strong> {{ team.homeground }} ({{ team.day }} {{ team.time }}) <br />
 {% if team.format %}<strong>Format:</strong> {{ team.format }} <br /> {% endif %}
-{% if team.League != '' %}<strong>League:</strong> {{ team.League }} <br /> {% endif %}
+{% if team.League != nil %}<strong>League:</strong> {{ team.League }} <br /> {% endif %}
 {% if team.results %}<a href="{{ team.results }}"><strong>Results</strong></a><br /> {% endif %}
 {% if team.training %}<strong>Training:</strong> {{ team.training }} <br /> {% endif %}
-{% if team.sponsor != '' %}<strong>Sponsor:</strong> <a href="{{ team.sponsorURL }}">{{ team.sponsor }}</a> {% endif %}
-{% if team.sponsor2 != '' %} and <a href="{{ team.sponsorURL2 }}">{{ team.sponsor2 }}</a> {% endif %}
-{% if team.sponsor != '' %}<br /> {% endif %}
+{% if team.sponsor != nil %}<strong>Sponsor:</strong> <a href="{{ team.sponsorURL }}">{{ team.sponsor }}</a> {% endif %}
+{% if team.sponsor2 != nil %} and <a href="{{ team.sponsorURL2 }}">{{ team.sponsor2 }}</a> {% endif %}
+{% if team.sponsor != nil %}<br /> {% endif %}
 {% if team.schoolyear %}<strong>School year:</strong> {{ team.schoolyear }} {% endif %}
 {% if team.blurb %}<br /><br /> {{ team.blurb }} <br /> {% endif %}
 </p>
             </li>
+	  {% endif %}
 	  {% endif %}
           {% endfor %}
         </ul>
