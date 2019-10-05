@@ -26,6 +26,7 @@ title: Teams &mdash; secondary school age
 {% if team.sponsor != nil %}<br /> {% endif %}
 {% if team.schoolyear %}<strong>School year:</strong> {{ team.schoolyear }} {% endif %}
 {% if team.blurb %}<br /><br /> {{ team.blurb }} <br /> {% endif %}
+{% if team.leagueTable != nil %} {{ team.leagueTable }} <br /> {% endif %}
 </p>
             </li>
 	  {% endif %}
