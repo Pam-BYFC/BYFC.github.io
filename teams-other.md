@@ -26,6 +26,7 @@ title: Adult teams
 {% if team.sponsor != nil %}<br /> {% endif %}
 {% if team.schoolyear != nil %}<strong>School year:</strong> {{ team.schoolyear }} {% endif %}
 {% if team.blurb != nil %}<br /><br /> {{ team.blurb }} <br /> {% endif %}
+{% if team.leagueTable != nil %} {{ team.leagueTable }} <br /> {% endif %}
 </p>
             </li>
 	  {% endif %}
