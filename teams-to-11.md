@@ -22,6 +22,7 @@ title: Teams &mdash; primary school age
 {% if team.results %}<a href="{{ team.results }}"><strong>Results</strong></a><br /> {% endif %}
 {% if team.training != nil %}<strong>Training:</strong> {{ team.training }} <br /> {% endif %}
 {% if team.League != nil %}<strong>League:</strong> {{ team.League }} <br /> {% endif %}
+{% if team.Fixtures != nil %}<a href="{{ team.Fixtures }}"><strong>Fixtures</strong></a><br /> {% endif %}
 
 
 {% if team.sponsor != nil %}<strong>Sponsor:</strong> <a href="{{ team.sponsorURL }}">{{ team.sponsor }}</a> {% endif %}
